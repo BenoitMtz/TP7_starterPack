@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="maillage_v3_exo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/benoit/dev/maillage_v3_exo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/benoit/dev/maillage_v3_exo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maillage_v3_exo">
+				<Option output="/home/benoit/dev/maillage_v3_exo/cmake-build-debug/maillage_v3_exo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benoit/dev/maillage_v3_exo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/geometrie"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/graphisme"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/maillage"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/svg"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/util"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 maillage_v3_exo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maillage_v3_exo/fast">
+				<Option output="/home/benoit/dev/maillage_v3_exo/cmake-build-debug/maillage_v3_exo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benoit/dev/maillage_v3_exo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/geometrie"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/graphisme"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/maillage"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/svg"/>
+					<Add directory="/home/benoit/dev/maillage_v3_exo/src/util"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 maillage_v3_exo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/benoit/dev/maillage_v3_exo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/benoit/dev/maillage_v3_exo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/cadre.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/cadre.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/coords.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/coords.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/matrice.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/matrice.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/transformation.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/geometrie/transformation.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/graphisme/couleur.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/graphisme/couleur.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/graphisme/styledessin.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/maillage/maillage.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/maillage/maillage.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/maillage/sommet.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/maillage/sommet.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/maillage/triangle.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/maillage/triangle.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/main.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/svg/svgfile.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/svg/svgfile.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/util/util.cpp">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/src/util/util.h">
+			<Option target="maillage_v3_exo"/>
+		</Unit>
+		<Unit filename="/home/benoit/dev/maillage_v3_exo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
